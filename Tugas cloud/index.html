@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="intro-screen">
+  <div class="intro-content">
+    <h1>Selamat Datang 👋</h1>
+    <p>Geser layar ke arah mana saja untuk masuk ke website</p>
+    <div class="slide-arrow">⬅️⬆️➡️⬇️</div>
+  </div>
+</div>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <button id="theme-toggle">🌛</button>
+        <div class="pointer-sticker">👉 Klik di sini untuk ubah tema!</div>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="tentang" class="fade-in">
+    <h1>Tentang Saya</h1>
+    <img src=folder/25012009(001).jpg alt="Foto Profil" class="profil">
+    <p>
+      Halo, saya <b>Muhammad Fikri Zaky</b>, seseorang yang tertarik dengan teknologi, desain, music dan seni.
+      Saya berpengalaman dalam <i>HTML</i>, <i>CSS</i>, dan <i>JavaScript</i> serta bersemangat untuk
+      membangun solusi digital inovatif.
+    </p>
+  </section>
+
+  <section id="proyek" class="fade-in">
+    <h1>Proyek Saya</h1>
+    <div class="proyek-container">
+      <div class="proyek-card">
+        <h3>Hasil Gambar yang saya buat</h3>
+        <img src=folder/IMG_20240601_231146.jpg class="profil">
+        <p>ini adalah hasil gambaran pemula saya</p>
+      </div>
+      <div class="proyek-card">
+        <h3>Contoh video yang saya buat</h3>
+         <video controls width="150" class="video-profil">
+          <source src="folder/W Tes(1)(1).mp4" type="video/mp4">
+          Browser Anda tidak mendukung tag video.
+          </video>
+        <p>Ini adalah editing video amatir yang saya buat</p>
+      </div>
+      <div class="proyek-card">
+        <h3>Game Progress</h3>
+        <img src=folder/Screenshot.png class="profil">
+        <p>Saya sudah mencapai bagian Volcano pada game PEAK</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="fade-in">
+    <h1>Kontak Saya</h1>
+    <form id="contactForm">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" rows="4" required></textarea>
+
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <div class="sosial">
+      <a href="https://x.com/prabowo">Twitter</a> |
+      <a href="https://www.instagram.com/jokowi/">Instagram</a> |
+      <a href="https://web.facebook.com/bwangryan">Facebook</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
